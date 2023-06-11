@@ -1,0 +1,6 @@
+baseURL = "https://primeroznl.fly.dev"
+languageCode = "en-us"
+title = "Francesco Ciocchetti"
+theme = "ananke"
+[params]
+site_logo = "/images/makeroni-logo-small.webp"

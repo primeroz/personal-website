@@ -1,0 +1,15 @@
+{
+    # Disable Cert Management 
+    auto_https off
+}
+
+# Traffic from FLY edge to APP will be unencrypted 
+# Can i change this ?
+http://me.przhome.xyz {
+    root * /usr/share/caddy
+    file_server
+}
+
+http://primeroznl.fly.dev {
+    redir https://me.przhome.xyz
+}
